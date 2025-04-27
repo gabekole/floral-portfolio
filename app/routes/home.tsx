@@ -2,6 +2,8 @@ import type { Route } from "./+types/home";
 import { Welcome } from "../welcome/welcome";
 import { useState, useEffect, useRef } from 'react';
 import { ChevronRight, ChevronLeft, ArrowLeft, ArrowRight } from 'lucide-react';
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
 
 import { labShortNames, labData} from '../helper'
 import type {LabShortNames, LabDataItem } from '../helper'
@@ -145,20 +147,40 @@ const Navigation = ({ activeLab, setActiveLab } : { activeLab: string; setActive
   );
 };
 
-// Photo Gallery component with hover effects
-const PhotoGallery = ({ labId } : { labId : string }) => (
-  <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-    {[1, 2, 3].map(num => (
-      <div key={num} className="h-64 rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:scale-105 hover:shadow-lg">
-        <img 
-          src="/api/placeholder/400/320" 
-          alt={`${labId} design - view ${num}`}
-          className="w-full h-full object-cover"
-        />
+
+const PhotoGallery = ({ lab }: { lab: LabDataItem }) => {
+  const [index, setIndex] = useState<number>(-1);
+
+  const slides = lab.imagesUrl.map((url) => ({ src: url }));
+
+  return (
+    <>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+        {lab.imagesUrl.map((imageUrl, num) => (
+          <div
+            key={num}
+            className="h-64 rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:scale-105 hover:shadow-lg cursor-pointer"
+            onClick={() => setIndex(num)}
+          >
+            <img
+              src={imageUrl}
+              alt={`${lab.title} - view ${num}`}
+              className="w-full h-full object-cover"
+            />
+          </div>
+        ))}
       </div>
-    ))}
-  </div>
-);
+
+      <Lightbox
+        open={index >= 0}
+        close={() => setIndex(-1)}
+        slides={slides}
+        index={index}
+        on={{ view: ({ index }) => setIndex(index) }}
+      />
+    </>
+  );
+};
 
 // InfoCard component with improved styling
 const InfoCard = ({ title, items } : {
@@ -199,7 +221,7 @@ const LabSection = ({ lab, isActive, onPrevious, onNext, isPrevious, isNext } : 
       </div>
       
       <div className="p-6 md:p-8">
-        <PhotoGallery labId={lab.id} />
+        <PhotoGallery lab={lab} />
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
           <InfoCard title="Floral Recipe" items={lab.floralRecipe} />
