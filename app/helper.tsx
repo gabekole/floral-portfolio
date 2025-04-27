@@ -25,7 +25,7 @@ const labData : LabDataItem[] = [
         floralRecipe: ["Roses", "Baby's breath", "Eucalyptus", "Daisy pompoms"],
         toolsUsed: ["Floral foam", "Floral knife", "Floral shears", "Mug (as container)"],
         description: "Working with floral foam was a new experience that allowed for precise stem placement and secure structural support. I experimented with varying heights to create visual interest within the mug container. Next time, I would like to incorporate more varied foliage to add depth to the arrangement.",
-        imagesUrl : []
+        imagesUrl : ['week2Foam/1.png', 'week2Foam/6.jpg', 'week2Foam/2.png']
     },
     {
         id: "lab3",
@@ -34,7 +34,7 @@ const labData : LabDataItem[] = [
         floralRecipe: ["Silver dollar eucalyptus", "Italian ruscus", "Leatherleaf fern", "Salal", "Pittosporum"],
         toolsUsed: ["Floral knife", "Floral tape", "Floral shears", "Floral wire"],
         description: "This lab challenged me to appreciate the beauty and versatility of foliage without relying on colorful blooms. Learning floral taping techniques was particularly valuable as it provides the foundation for future wearable designs. The varying textures and shades of green created a surprisingly dynamic arrangement with depth and character.",
-        imagesUrl : []
+        imagesUrl : ['week3Foliage/11.png', 'week3Foliage/8.png','week3Foliage/12.png']
     },
     {
         id: "lab4",
@@ -43,7 +43,7 @@ const labData : LabDataItem[] = [
         floralRecipe: ["Queen Anne's lace", "Ranunculus", "Protea", "Astilbe", "Eucalyptus", "Ruscus"],
         toolsUsed: ["Floral knife", "Floral shears", "Chicken wire", "Ceramic vessel"],
         description: "Creating this asymmetrical arrangement allowed me to break away from traditional symmetrical designs and embrace a more organic aesthetic. I focused on creating movement through the placement of cascading elements and varying heights. The challenge was maintaining visual balance while intentionally creating asymmetry – a paradox that taught me much about composition.",
-        imagesUrl : []
+        imagesUrl : ['week4WildAsymmetrical/7.png', 'week4WildAsymmetrical/6.png', 'week4WildAsymmetrical/8.jpg']
     },
     {
         id: "lab5",
@@ -52,7 +52,7 @@ const labData : LabDataItem[] = [
         floralRecipe: ["Garden roses", "Spray roses", "Stock", "Lisianthus", "Seeded eucalyptus", "Italian ruscus"],
         toolsUsed: ["Chicken wire", "Floral foam", "Floral shears", "Floral knife", "Low ceramic container"],
         description: "The long and low arrangement is perfect for table centerpieces as it allows for conversation over the top. Working with the horizontal emphasis taught me to think differently about space and proportion. I particularly enjoyed creating visual flow along the length of the arrangement while maintaining a cohesive look from all viewing angles.",
-        imagesUrl : []
+        imagesUrl : ['week5LongAndLow/3.png', 'week5LongAndLow/5.png', 'week5LongAndLow/1.jpg']
     },
     {
         id: "lab6",
@@ -70,7 +70,7 @@ const labData : LabDataItem[] = [
         floralRecipe: ["Calla lily", "Orchid", "Bird of paradise", "Cherry blossom branches", "Horsetail"],
         toolsUsed: ["Kenzan (pin frog)", "Shallow container", "Floral scissors", "Floral knife"],
         description: "Ikebana introduced me to the Japanese art of flower arrangement with its emphasis on minimalism, asymmetry, and the beauty of negative space. The discipline required for this style was challenging but rewarding. I appreciated learning about the significance of the three main lines representing heaven, earth, and humanity, and how their proper placement creates harmony in the arrangement.",
-        imagesUrl : []
+        imagesUrl : ['week8Ikebana/13.png', 'week8Ikebana/10.png', 'week8Ikebana/5.png']
     },
     {
         id: "lab9",
@@ -79,7 +79,7 @@ const labData : LabDataItem[] = [
         floralRecipe: ["Roses", "Ranunculus", "Tulips", "Lisianthus", "Eucalyptus", "Italian ruscus"],
         toolsUsed: ["Floral shears", "Floral knife", "Floral tape", "Ribbon", "Straight pins"],
         description: "The hand-tied bouquet technique creates a gathered, natural look that's perfect for weddings and special events. I learned the importance of stem placement and the spiral technique to create structure. The most challenging aspect was maintaining consistent tension while adding stems, but the final result was a professional-looking bouquet with a natural, gathered appearance.",
-        imagesUrl : []
+        imagesUrl : ['week10HandBouquet/5.jpg', 'week10HandBouquet/1.jpg', 'week10HandBouquet/3.jpg']
     },
     {
         id: "lab10",
@@ -88,7 +88,7 @@ const labData : LabDataItem[] = [
         floralRecipe: ["Garden roses", "Poppies", "Butterfly ranunculus", "Flowering branches", "Foraged grasses", "Foraged berries", "Eucalyptus"],
         toolsUsed: ["Floral shears", "Floral knife", "Natural twine", "Garden scissors"],
         description: "Building on the hand-tied technique from the previous lab, this wild bouquet incorporated foraged elements to create a more organic, garden-inspired look. The challenge was balancing the structured technique with the wild, unruly nature of the foraged materials. I enjoyed the freedom this style provided while still maintaining a cohesive design.",
-        imagesUrl : []
+        imagesUrl : ['Week11WildBouquet/6.png', 'Week11WildBouquet/3.png', 'Week11WildBouquet/4.png']
     },
     {
         id: "lab11",
@@ -97,7 +97,7 @@ const labData : LabDataItem[] = [
         floralRecipe: ["Spray roses", "Waxflower", "Baby's breath", "Jasmine vine", "Seeded eucalyptus", "Italian ruscus"],
         toolsUsed: ["Floral wire", "Floral tape", "Measuring tape", "Floral scissors", "Ribbon"],
         description: "Creating a floral crown required precise measurement and careful consideration of weight distribution. Each floral element needed to be securely anchored while maintaining a delicate appearance. The crown needed to be both beautiful and functional – comfortable enough to wear for extended periods. This final project brought together many of the techniques learned throughout the course.",
-        imagesUrl : []
+        imagesUrl : ['week12floralCrown/3.png', 'week12floralCrown/5.jpg', 'week12floralCrown/1.png']
     }
 ];
 
