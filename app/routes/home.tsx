@@ -13,8 +13,6 @@ export function meta({}: Route.MetaArgs) {
   ];
 }
 
-
-
 // Header component with improved styling
 const Header = () => (
   <header className="bg-gradient-to-r from-rose-700 to-rose-900 text-white text-center py-12">
