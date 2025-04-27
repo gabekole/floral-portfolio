@@ -55,14 +55,32 @@ const labData : LabDataItem[] = [
         imagesUrl : ['week5LongAndLow/3.png', 'week5LongAndLow/5.png', 'week5LongAndLow/1.jpg']
     },
     {
-        id: "lab6",
+        id: "lab6a",
         week: "Week 6: February 25th",
-        title: "Lab #6: Boutonnieres and Corsages",
+        title: "Lab #6a: Wristlet Corsage",
         floralRecipe: ["Spray roses", "Waxflower", "Baby's breath", "Heather", "Variegated pittosporum"],
-        toolsUsed: ["Floral tape", "Floral wire", "Boutonniere pins", "Corsage wristlet", "Floral adhesive", "Ribbon"],
-        description: "Creating wearable flower designs required precision and attention to durability. The boutonniere demanded simplicity while the corsage allowed for more elaborate design. I learned the importance of properly wiring each element and securing with floral tape for longevity. The technique of using contrast in textures helped create visual interest despite the small scale.",
-        imagesUrl : []
-    },
+        toolsUsed: ["Floral tape", "Floral wire", "Corsage wristlet", "Floral adhesive", "Ribbon"],
+        description: "We created wristlet corsages designed for ease of wear and comfort. I learned how to securely attach flowers to a wristlet base using floral adhesive and tape, ensuring durability without sacrificing elegance. Balancing the design to sit comfortably on the wrist was key.",
+        imagesUrl: ['week6Wearable/17.png', 'week6Wearable/14.png', 'week6Wearable/15.png']
+        },
+        {
+        id: "lab6b",
+        week: "Week 6: February 25th",
+        title: "Lab #6b: Boutonniere",
+        floralRecipe: ["Spray roses", "Waxflower", "Baby's breath", "Heather", "Variegated pittosporum"],
+        toolsUsed: ["Floral tape", "Floral wire", "Boutonniere pins"],
+        description: "For the boutonniere, simplicity and neatness were essential. I practiced precise wiring of individual flowers and foliage, keeping the design compact and clean. Proper floral taping was critical to ensure both durability and a polished look.",
+        imagesUrl: ['week6Wearable/1.png', 'week6Wearable/8.png', 'week6Wearable/6.png',]
+        },
+        {
+        id: "lab6c",
+        week: "Week 6: February 25th",
+        title: "Lab #6c: Corsage",
+        floralRecipe: ["Spray roses", "Waxflower", "Baby's breath", "Heather", "Variegated pittosporum"],
+        toolsUsed: ["Floral tape", "Floral wire", "Corsage wristlet", "Floral adhesive", "Ribbon"],
+        description: "The traditional corsage allowed for a slightly larger and more layered design compared to the boutonniere. I experimented with combining different textures and layering flowers to create depth while ensuring the structure remained lightweight and secure.",
+        imagesUrl: ['week6Wearable/9.png','week6Wearable/10.png','week6Wearable/11.png']
+        },
     {
         id: "lab8",
         week: "Week 8: March 11th",
@@ -70,7 +88,7 @@ const labData : LabDataItem[] = [
         floralRecipe: ["Calla lily", "Orchid", "Bird of paradise", "Cherry blossom branches", "Horsetail"],
         toolsUsed: ["Kenzan (pin frog)", "Shallow container", "Floral scissors", "Floral knife"],
         description: "Ikebana introduced me to the Japanese art of flower arrangement with its emphasis on minimalism, asymmetry, and the beauty of negative space. The discipline required for this style was challenging but rewarding. I appreciated learning about the significance of the three main lines representing heaven, earth, and humanity, and how their proper placement creates harmony in the arrangement.",
-        imagesUrl : ['week8Ikebana/13.png', 'week8Ikebana/10.png', 'week8Ikebana/5.png']
+        imagesUrl : ['week8Ikebana/13.png', 'week8Ikebana/10.png', 'week8Ikebana/5.png', 'week8Ikebana/1.png', 'week8Ikebana/4.png']
     },
     {
         id: "lab9",
@@ -106,18 +124,20 @@ interface LabShortNames {
 }
 
 // Navigation shortname mapping
-const labShortNames : LabShortNames = {
+const labShortNames: LabShortNames = {
     "lab1": "Principles & Elements",
     "lab2": "Foam Arrangement",
     "lab3": "Foliage & Taping",
     "lab4": "Asymmetrical",
     "lab5": "Long & Low",
-    "lab6": "Boutonnieres & Corsages",
+    "lab6a": "Wristlet Corsage",
+    "lab6b": "Boutonniere",
+    "lab6c": "Corsage",
     "lab8": "Ikebana",
     "lab9": "Hand-tied Bouquet",
     "lab10": "Wild Bouquet",
     "lab11": "Floral Crown"
-};
+};  
 
 export { labShortNames, labData }
 export type { LabShortNames, LabDataItem }
