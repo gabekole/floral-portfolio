@@ -55,67 +55,67 @@ const labData : LabDataItem[] = [
         imagesUrl : ['week5LongAndLow/3.png', 'week5LongAndLow/5.png', 'week5LongAndLow/1.jpg']
     },
     {
-        id: "lab6a",
-        week: "Week 6: February 25th",
-        title: "Lab #6a: Wristlet Corsage",
-        floralRecipe: ["Spray roses", "Limonium", "Leatherleaf"],
-        toolsUsed: ["Corsage wristlet", "Cold floral glue"],
-        description: "We created wristlet corsages designed for ease of wear and comfort. I learned how to securely attach flowers to a wristlet base using floral adhesive and tape, ensuring durability without sacrificing elegance. Balancing the design to sit comfortably on the wrist was key.",
-        imagesUrl: ['week6Wearable/17.png', 'week6Wearable/14.png', 'week6Wearable/15.png']
-        },
-        {
-        id: "lab6b",
-        week: "Week 6: February 25th",
-        title: "Lab #6b: Boutonniere",
-        floralRecipe: ["Carnation", "Baby's breath", "Gunni Eucalyptus"],
-        toolsUsed: ["Floral tape"],
-        description: "For the boutonniere, simplicity and neatness were essential. I practiced precise wiring of individual flowers and foliage, keeping the design compact and clean. Proper floral taping was critical to ensure both durability and a polished look.",
-        imagesUrl: ['week6Wearable/1.png', 'week6Wearable/8.png', 'week6Wearable/6.png',]
-        },
-        {
-        id: "lab6c",
-        week: "Week 6: February 25th",
-        title: "Lab #6c: Corsage",
-        floralRecipe: ["Spray roses", "Carnation", "Baby's breath", "Leatherleaf", "Limonium", "Gunni Eucalyptus"],
-        toolsUsed: ["Floral tape"],
-        description: "The traditional corsage allowed for a slightly larger and more layered design compared to the boutonniere. I experimented with combining different textures and layering flowers to create depth while ensuring the structure remained lightweight and secure.",
-        imagesUrl: ['week6Wearable/9.png','week6Wearable/10.png','week6Wearable/11.png']
-        },
-    {
-        id: "lab8",
-        week: "Week 8: March 11th",
-        title: "Lab #8: Ikebana",
-        floralRecipe: ["Rose", "Salal", "Israeli Ruscus", "Pittosporum", "Solidago"],
-        toolsUsed: ["Kenzan (pin frog)", "Shallow container", "Floral snips", "Floral foam", "Hot glue"],
-        description: "Ikebana introduced me to the Japanese art of flower arrangement with its emphasis on minimalism, asymmetry, and the beauty of negative space. The discipline required for this style was challenging but rewarding. I appreciated learning about the significance of the three main lines representing heaven, earth, and humanity, and how their proper placement creates harmony in the arrangement.",
-        imagesUrl : ['week8Ikebana/13.png', 'week8Ikebana/10.png', 'week8Ikebana/5.png', 'week8Ikebana/1.png', 'week8Ikebana/4.png']
+        "id": "lab6a",
+        "week": "Week 6: February 25th",
+        "title": "Lab #6a: Wristlet Corsage",
+        "floralRecipe": ["Spray roses", "Limonium", "Leatherleaf"],
+        "toolsUsed": ["Corsage wristlet", "Cold floral glue"],
+        "description": "This project focused on creating a compact wearable design with a soft, natural shape. I layered the spray roses and limonium to create texture while keeping the form balanced across the wrist. Working with floral glue was a new challenge, requiring careful placement to secure elements without losing the natural line of the materials.",
+        "imagesUrl": ["week6Wearable/17.png", "week6Wearable/14.png", "week6Wearable/15.png"]
     },
     {
-        id: "lab9",
-        week: "Week 10: March 25th",
-        title: "Lab #9: Basic Hand-tied Bouquet",
-        floralRecipe: ["Salal", "Babys Breath", "Carnation", "Leatherleaf", "Daisy Chrysanthemum", "Pittosporum"],
-        toolsUsed: ["Floral snips", "Bindwire", "Floral tape", "Ribbon"],
-        description: "The hand-tied bouquet technique creates a gathered, natural look that's perfect for weddings and special events. I learned the importance of stem placement and the spiral technique to create structure. The most challenging aspect was maintaining consistent tension while adding stems, but the final result was a professional-looking bouquet with a natural, gathered appearance.",
-        imagesUrl : ['week10HandBouquet/5.jpg', 'week10HandBouquet/1.jpg', 'week10HandBouquet/3.jpg']
+        "id": "lab6b",
+        "week": "Week 6: February 25th",
+        "title": "Lab #6b: Boutonniere",
+        "floralRecipe": ["Carnation", "Baby's breath", "Gunni Eucalyptus"],
+        "toolsUsed": ["Floral tape"],
+        "description": "The boutonniere focused on clean form and precise scale. I practiced tightly wiring and taping small elements to keep the piece lightweight and proportional. The shape was vertical and narrow, with the carnation placed as the clear focal point supported by minimal filler.",
+        "imagesUrl": ["week6Wearable/1.png", "week6Wearable/8.png", "week6Wearable/6.png"]
     },
     {
-        id: "lab10",
-        week: "Week 11: April 1st",
-        title: "Lab #10: Wild Bouquet",
-        floralRecipe: ["Salal", "Pittosporum", "Leatherleaf", "Veronica", "Kangaroo Paw", "Spray Roses", "Daffodils", "Globe thistle", "Clematis"],
-        toolsUsed: ["Floral snips", "Floral Tape", "Ribbon", "Bindwire", "Pins"],
-        description: "Building on the hand-tied technique from the previous lab, this wild bouquet incorporated foraged elements to create a more organic, garden-inspired look. The challenge was balancing the structured technique with the wild, unruly nature of the foraged materials. I enjoyed the freedom this style provided while still maintaining a cohesive design.",
-        imagesUrl : ['Week11WildBouquet/6.png', 'Week11WildBouquet/3.png', 'Week11WildBouquet/4.png']
+        "id": "lab6c",
+        "week": "Week 6: February 25th",
+        "title": "Lab #6c: Corsage",
+        "floralRecipe": ["Spray roses", "Carnation", "Baby's breath", "Leatherleaf", "Limonium", "Gunni Eucalyptus"],
+        "toolsUsed": ["Floral tape"],
+        "description": "The corsage allowed for a slightly fuller and more layered design compared to the boutonniere. I focused on building depth by overlapping textures while keeping the structure lightweight and flexible. Careful placement of baby's breath helped break up larger forms and created a more delicate visual rhythm across the piece.",
+        "imagesUrl": ["week6Wearable/9.png", "week6Wearable/10.png", "week6Wearable/11.png"]
     },
     {
-        id: "lab11",
-        week: "Week 12: April 8th",
-        title: "Lab #11: Floral Crown",
-        floralRecipe: ["Spray roses", "Gunni Eucalyptus", "Baby's breath", "Willow Eucalyptus"],
-        toolsUsed: ["Floral snips", "Floral tape"],
-        description: "Creating a floral crown required precise measurement and careful consideration of weight distribution. Each floral element needed to be securely anchored while maintaining a delicate appearance. The crown needed to be both beautiful and functional – comfortable enough to wear for extended periods. This final project brought together many of the techniques learned throughout the course.",
-        imagesUrl : ['week12floralCrown/3.png', 'week12floralCrown/5.jpg', 'week12floralCrown/1.png']
+        "id": "lab8",
+        "week": "Week 8: March 11th",
+        "title": "Lab #8: Ikebana",
+        "floralRecipe": ["Rose", "Salal", "Israeli Ruscus", "Pittosporum", "Solidago"],
+        "toolsUsed": ["Kenzan (pin frog)", "Shallow container", "Floral snips", "Floral foam", "Hot glue"],
+        "description": "This lab introduced minimalism through the principles of Ikebana. I focused on creating strong lines with negative space and asymmetrical balance. The rose served as the main focal point, supported by structural greens that created movement outward from the center. The simplicity of the materials challenged me to be more intentional with placement.",
+        "imagesUrl": ["week8Ikebana/13.png", "week8Ikebana/10.png", "week8Ikebana/5.png", "week8Ikebana/1.png", "week8Ikebana/4.png"]
+    },
+    {
+        "id": "lab9",
+        "week": "Week 10: March 25th",
+        "title": "Lab #9: Basic Hand-tied Bouquet",
+        "floralRecipe": ["Salal", "Babys Breath", "Carnation", "Leatherleaf", "Daisy Chrysanthemum", "Pittosporum"],
+        "toolsUsed": ["Floral snips", "Bindwire", "Floral tape", "Ribbon"],
+        "description": "In this project, I learned the spiral stem technique to build a natural-looking hand-tied bouquet. The round form was established by layering larger blooms toward the center and smaller filler around the edges. Maintaining consistent tension while adding stems was the biggest challenge, but it resulted in a balanced and cohesive final shape.",
+        "imagesUrl": ["week10HandBouquet/5.jpg", "week10HandBouquet/1.jpg", "week10HandBouquet/3.jpg"]
+    },
+    {
+        "id": "lab10",
+        "week": "Week 11: April 1st",
+        "title": "Lab #10: Wild Bouquet",
+        "floralRecipe": ["Salal", "Pittosporum", "Leatherleaf", "Veronica", "Kangaroo Paw", "Spray Roses", "Daffodils", "Globe thistle", "Clematis"],
+        "toolsUsed": ["Floral snips", "Floral Tape", "Ribbon", "Bindwire", "Pins"],
+        "description": "This bouquet built on the spiral technique with a looser, more organic structure. I experimented with layering textures to create movement and asymmetry, allowing the foraged materials to dictate a more natural flow. The arrangement kept a focal area near the center, with line flowers like Veronica leading the eye outward.",
+        "imagesUrl": ["Week11WildBouquet/6.png", "Week11WildBouquet/3.png", "Week11WildBouquet/4.png"]
+    },
+    {
+        "id": "lab11",
+        "week": "Week 12: April 8th",
+        "title": "Lab #11: Floral Crown",
+        "floralRecipe": ["Spray roses", "Gunni Eucalyptus", "Baby's breath", "Willow Eucalyptus"],
+        "toolsUsed": ["Floral snips", "Floral tape"],
+        "description": "The floral crown emphasized careful measurement and light layering to maintain comfort and balance. I used a mix of soft and structured greens to build rhythm along the crown, with focal clusters of spray roses spaced evenly around the circle. Managing scale and weight was critical to ensure the crown sat naturally on the head.",
+        "imagesUrl": ["week12floralCrown/3.png", "week12floralCrown/5.jpg", "week12floralCrown/1.png"]
     }
 ];
 
