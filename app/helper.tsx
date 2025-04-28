@@ -68,7 +68,7 @@ const labData : LabDataItem[] = [
         "week": "Week 6: February 25th",
         "title": "Lab #6b: Boutonniere",
         "floralRecipe": ["Carnation", "Baby's breath", "Gunni Eucalyptus"],
-        "toolsUsed": ["Floral tape"],
+        "toolsUsed": ["Floral tape", "Floral snips"],
         "description": "The boutonniere focused on clean form and precise scale. I practiced tightly wiring and taping small elements to keep the piece lightweight and proportional. The shape was vertical and narrow, with the carnation placed as the clear focal point supported by minimal filler.",
         "imagesUrl": ["week6Wearable/1.png", "week6Wearable/8.png", "week6Wearable/6.png"]
     },
@@ -77,7 +77,7 @@ const labData : LabDataItem[] = [
         "week": "Week 6: February 25th",
         "title": "Lab #6c: Corsage",
         "floralRecipe": ["Spray roses", "Carnation", "Baby's breath", "Leatherleaf", "Limonium", "Gunni Eucalyptus"],
-        "toolsUsed": ["Floral tape"],
+        "toolsUsed": ["Floral tape", "Floral snips"],
         "description": "The corsage allowed for a slightly fuller and more layered design compared to the boutonniere. I focused on building depth by overlapping textures while keeping the structure lightweight and flexible. Careful placement of baby's breath helped break up larger forms and created a more delicate visual rhythm across the piece.",
         "imagesUrl": ["week6Wearable/9.png", "week6Wearable/10.png", "week6Wearable/11.png"]
     },
@@ -87,7 +87,7 @@ const labData : LabDataItem[] = [
         "title": "Lab #8: Ikebana",
         "floralRecipe": ["Rose", "Salal", "Israeli Ruscus", "Pittosporum", "Solidago"],
         "toolsUsed": ["Kenzan (pin frog)", "Shallow container", "Floral snips", "Floral foam", "Hot glue"],
-        "description": "This lab introduced minimalism through the principles of Ikebana. I focused on creating strong lines with negative space and asymmetrical balance. The rose served as the main focal point, supported by structural greens that created movement outward from the center. The simplicity of the materials challenged me to be more intentional with placement.",
+        "description": "This lab introduced minimalism through the principles of Ikebana. We first created arrangements using a kenzan pin frog to anchor stems and emphasize clean lines and negative space. Afterward, we built a second arrangement using floral foam, which allowed for more secure placements but required more careful adjustments to preserve the open, asymmetrical style. The rose served as the main focal point in both designs, with supporting greens creating movement outward from the center.",
         "imagesUrl": ["week8Ikebana/13.png", "week8Ikebana/10.png", "week8Ikebana/5.png", "week8Ikebana/1.png", "week8Ikebana/4.png"]
     },
     {
@@ -105,7 +105,7 @@ const labData : LabDataItem[] = [
         "title": "Lab #10: Wild Bouquet",
         "floralRecipe": ["Salal", "Pittosporum", "Leatherleaf", "Veronica", "Kangaroo Paw", "Spray Roses", "Daffodils", "Globe thistle", "Clematis"],
         "toolsUsed": ["Floral snips", "Floral Tape", "Ribbon", "Bindwire", "Pins"],
-        "description": "This bouquet built on the spiral technique with a looser, more organic structure. I experimented with layering textures to create movement and asymmetry, allowing the foraged materials to dictate a more natural flow. The arrangement kept a focal area near the center, with line flowers like Veronica leading the eye outward.",
+        "description": "This bouquet built on the spiral technique with a looser, more organic structure. I experimented with layering textures to create movement and asymmetry. The arrangement kept a focal area near the center, with line flowers like Veronica leading the eye outward.",
         "imagesUrl": ["Week11WildBouquet/6.png", "Week11WildBouquet/3.png", "Week11WildBouquet/4.png"]
     },
     {
