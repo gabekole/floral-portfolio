@@ -17,10 +17,12 @@ export function meta({}: Route.MetaArgs) {
 
 // Header component with improved styling
 const Header = () => (
-  <header className="bg-gradient-to-r from-rose-700 to-rose-900 text-white text-center py-12">
-    <h1 className="text-5xl font-bold mb-4">My Floral Art Portfolio</h1>
-    <p className="text-xl max-w-3xl mx-auto px-4 opacity-90">
-      A collection of designs and techniques learned throughout my floral art class
+  <header className="bg-gradient-to-r from-rose-700 to-rose-900 text-white text-center py-16">
+    <h1 className="text-6xl font-bold mb-6">My Floral Art Portfolio</h1>
+    <h3 className="text-2xl font-semibold mb-2">Gabe Koleszar</h3>
+    <h3 className="text-xl font-medium mb-6 opacity-90">SPSS 2520: Floral Art – University of Connecticut</h3>
+    <p className="text-lg max-w-3xl mx-auto px-6 opacity-80">
+      A collection of designs and techniques learned throughout the course.
     </p>
   </header>
 );
