@@ -148,6 +148,7 @@ const Navigation = ({ activeLab, setActiveLab } : { activeLab: string; setActive
 };
 
 
+
 const PhotoGallery = ({ lab }: { lab: LabDataItem }) => {
   const [index, setIndex] = useState<number>(-1);
 
@@ -156,31 +157,51 @@ const PhotoGallery = ({ lab }: { lab: LabDataItem }) => {
   return (
     <>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-        {lab.imagesUrl.map((imageUrl, num) => (
-          <div
-            key={num}
-            className="h-64 rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:scale-105 hover:shadow-lg cursor-pointer"
-            onClick={() => setIndex(num)}
-          >
-            <img
-              src={imageUrl}
-              alt={`${lab.title} - view ${num}`}
-              className="w-full h-full object-cover"
-            />
-          </div>
-        ))}
+        {lab.imagesUrl.map((imageUrl, num) => {
+          // Split folder and filename
+          const parts = imageUrl.split('/');
+          const folder = parts[0]; // e.g., "week10HandBouquet"
+          const filename = parts[1].replace(/\.(png|jpe?g|webp)$/i, ''); // e.g., "1"
+
+          return (
+            <div
+              key={num}
+              className="h-64 rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:scale-105 hover:shadow-lg cursor-pointer"
+              onClick={() => setIndex(num)}
+            >
+              <img
+                src={`/resized/${folder}/800_${filename}.jpg`}
+                alt={`${lab.title} - view ${num}`}
+                className="w-full h-full object-cover"
+                srcSet={`
+                  /resized/${folder}/400_${filename}.jpg 400w,
+                  /resized/${folder}/800_${filename}.jpg 800w,
+                  /resized/${folder}/1200_${filename}.jpg 1200w
+                `}
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+              />
+            </div>
+          );
+        })}
       </div>
 
       <Lightbox
         open={index >= 0}
         close={() => setIndex(-1)}
-        slides={slides}
+        slides={slides.map((slide) => {
+          const parts = slide.src.split('/');
+          const folder = parts[0];
+          const filename = parts[1].replace(/\.(png|jpe?g|webp)$/i, '');
+          return { src: `/resized/${folder}/1200_${filename}.jpg` };
+        })}
         index={index}
         on={{ view: ({ index }) => setIndex(index) }}
       />
     </>
   );
 };
+
+
 
 // InfoCard component with improved styling
 const InfoCard = ({ title, items } : {
