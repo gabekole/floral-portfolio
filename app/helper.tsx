@@ -31,9 +31,9 @@ const labData : LabDataItem[] = [
         id: "lab3",
         week: "Week 3: February 4th",
         title: "Lab #3: All Foliage Arrangement & Floral Taping",
-        floralRecipe: ["Silver dollar eucalyptus", "Italian ruscus", "Leatherleaf fern", "Salal", "Pittosporum"],
-        toolsUsed: ["Floral knife", "Floral tape", "Floral shears", "Floral wire"],
-        description: "This lab challenged me to appreciate the beauty and versatility of foliage without relying on colorful blooms. Learning floral taping techniques was particularly valuable as it provides the foundation for future wearable designs. The varying textures and shades of green created a surprisingly dynamic arrangement with depth and character.",
+        floralRecipe: ["Leatherleaf", "Asparagus Fern", "Aralia Leaf", "Plumosa", "Leurothoe Rainbow", "Nagi", "Pittosporum", "Aspidistra", "Pandanus Leaf"],
+        toolsUsed: ["Floral snips", "Clear floral tape", "Vase"],
+        description: "This lab challenged me build an arrangement without relying on colorful blooms.The varying textures and shades of green created a surprisingly dynamic arrangement with depth and character. The shape was round with the bounds defined by the large aralia leaf. The arangment was designed to take an ovular form.",
         imagesUrl : ['week3Foliage/11.png', 'week3Foliage/8.png','week3Foliage/12.png']
     },
     {
