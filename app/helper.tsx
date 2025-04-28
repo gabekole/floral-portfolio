@@ -15,16 +15,16 @@ const labData : LabDataItem[] = [
         title: "Lab #1: Principles and Elements of Floral Design",
         floralRecipe: ["Limonium", "Carnations", "Bear Grass", "Wax Flower"],
         toolsUsed: ["Floral knife", "Bud Vase"],
-        description: "In this introductory lab, I learned about the fundamental principles of floral design including balance, proportion, and harmony. The goal was to establish a visual line with the bear grass to draw attention to the carnation focal point.",
+        description: "In this introductory lab, I learned about the fundamental principles of floral design including balance, proportion, and harmony. The goal was to establish a visual line with the bear grass to establish the large pink carnation as a focal point. The minimal materials resulted in an airy and wild structure, with the form and shape being triangular due to the natrual spread of the flowers.",
         imagesUrl : ['week1Basic/7.png', 'week1Basic/9.png', 'week1Basic/18.jpg']
     },
     {
         id: "lab2",
         week: "Week 2: January 28th",
         title: "Lab #2: Basic Foam Arrangement",
-        floralRecipe: ["Roses", "Baby's breath", "Eucalyptus", "Daisy pompoms"],
-        toolsUsed: ["Floral foam", "Floral knife", "Floral shears", "Mug (as container)"],
-        description: "Working with floral foam was a new experience that allowed for precise stem placement and secure structural support. I experimented with varying heights to create visual interest within the mug container. Next time, I would like to incorporate more varied foliage to add depth to the arrangement.",
+        floralRecipe: ["Larkspur", "Leather Leaf", "Limonium", "Daisy pompoms", "Pittosporum", "Carnation"],
+        toolsUsed: ["Floral foam", "Floral knife", "Floral Snips", "Mug (as container)"],
+        description: "This arrangement was the most angular and geometrically strict I've made. The arrangement took on a triangular shape, with a focal point at the base. Working with floral foam was a new experience that allowed for precise stem placement and secure structural support.",
         imagesUrl : ['week2Foam/1.png', 'week2Foam/6.jpg', 'week2Foam/2.png']
     },
     {
