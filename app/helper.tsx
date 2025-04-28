@@ -112,7 +112,7 @@ const labData : LabDataItem[] = [
         id: "lab11",
         week: "Week 12: April 8th",
         title: "Lab #11: Floral Crown",
-        floralRecipe: ["Spray roses", "Gunni Eucalyptus", "Baby's breath"],
+        floralRecipe: ["Spray roses", "Gunni Eucalyptus", "Baby's breath", "Willow Eucalyptus"],
         toolsUsed: ["Floral snips", "Floral tape"],
         description: "Creating a floral crown required precise measurement and careful consideration of weight distribution. Each floral element needed to be securely anchored while maintaining a delicate appearance. The crown needed to be both beautiful and functional – comfortable enough to wear for extended periods. This final project brought together many of the techniques learned throughout the course.",
         imagesUrl : ['week12floralCrown/3.png', 'week12floralCrown/5.jpg', 'week12floralCrown/1.png']
