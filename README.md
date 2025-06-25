@@ -1,4 +1,4 @@
-# Gabe Koleszar's Floral Art Portfolio
+# Floral Art Portfolio
 
 Welcome to my Floral Art Portfolio, showcasing a collection of designs and techniques learned throughout the SPSS 2520: Floral Art course at the University of Connecticut.
 
